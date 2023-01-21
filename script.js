@@ -19,6 +19,7 @@ function addtodo(){
    
     newlist.addEventListener('click', function(){
         newlist.style.backgroundColor = 'green';
+        newlist.style.color = 'white';
     })
 
     newlist.addEventListener('dblclick', function(){
