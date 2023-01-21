@@ -84,6 +84,10 @@ input{
 }
 
 .outputStyling {
+    visibility: hidden;
+}
+
+.styling{
     margin: auto;
     background-color: lightcyan;
     width: 90%;
@@ -92,12 +96,5 @@ input{
     padding-left: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    visibility: hidden;
-}
-
-outputStyling button{
-    float: right;
-    margin-right: 5px;
-    border: none;
-    height: 22px;
+    margin-top: 5px;
 }
