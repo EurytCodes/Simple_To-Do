@@ -18,7 +18,7 @@ function addtodo(){
 
    
     newlist.addEventListener('click', function(){
-        newlist.style.backgroundColor = 'green';
+        newlist.style.backgroundColor = 'lightgreen';
         newlist.style.color = 'white';
     })
 
@@ -28,5 +28,5 @@ function addtodo(){
 }
 
 cleartodobtn.addEventListener('click', function(){
-    
+    outputstyling.style.visibility = 'hidden';
 })
